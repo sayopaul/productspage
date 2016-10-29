@@ -1,0 +1,181 @@
+<!--
+@author sayo_paul
+@package codeclass product page challenge
+
+-->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Paul's Store</title>
+	<link rel='stylesheet' type='text/css' href='css/main.css'>
+	<link rel='stylesheet' type='text/css' href='css/bootstrap.min.css'>
+	<link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+	<link rel='icon' href='images/logo.png'>
+
+	<style>
+	*{
+		font-family:Raleway;
+	}
+	.image-box{
+			float:left;
+			height:240px;
+			width:182px;
+			position:relative;
+			background-color:rgb(244,244,244);
+			border-bottom:1px solid rgb(211,211,211);
+			border-left:1px solid rgb(211,211,211);
+			border-right:1px solid rgb(211,211,211);
+			margin-left:15px;
+			margin-top:15px;
+			box-shadow: 1px 1px 2px 1px rgb(211,211,211);
+	}
+	.sixteen{
+		font-size:16px;
+	}
+	.cancel{
+		position:absolute;
+		right:3px;
+		top:0px;
+		font-weight:bold;
+		z-index:1000; 
+
+	}
+	.addTo{
+		position:absolute;
+		right:35px;
+		top:140px;
+		color:white;
+		border-radius:2px;
+		background:transparent;
+		border:1px solid white;
+		transition: all .3s ease-in-out;
+		z-index:150; 
+	}
+	.addTo:hover{
+		background-color:rgba(64,64,64,0.8);
+		border:1px solid white;
+		color:white;
+	}
+	.addTo:focus{
+		color:white;
+	}
+	a{
+		color:#0096ff;
+	}
+	.hidded{
+		
+	}
+	.description{
+		position:absolute;
+		top:0px;
+		width:180px;
+		height:138px;
+		color:white;
+		background-color:rgba(64,64,64,0.9);
+		transition:all .5s ease-in;
+		display:none;
+		padding:10px;	
+	}
+	.visi{
+		display:block;
+	}
+	.badge{
+		margin-right:15px;
+	}
+	</style>
+</head>
+<body>
+	<section class='container-fluid'>
+			<section class='row'>
+				<span style='float:left;'> <img height='60px' width='50px' src='images/logo.png'>  </span>
+				<span style='float:right;'> <img height='40px' width='40px' src='images/56.png'> <span class='badge' id='numCart'> 0 </span> </span>
+				<h1 class='centeredg' > Welcome to Paul's Store </h1>
+				<hr>
+				<h4 class='centeredg' > A taste of the divine ... </h4>
+					<section class='box'>
+						<section class='inner-box'>
+							<section class='image-container'>
+
+								<section class='image-box img img-responsive'> 
+									<span class='cancel'> <a href='#' style='color:white;'> X </a></span>
+									<button class='addTo btn'> Add to Cart </button>
+								 	<img src='images/1.jpg' height='180px' width='180px'> <a class='ordered centered sixteen' href='#' ><p style='padding-top:5px;'> Cardiggan </p><p> DOLCE</p></a>
+								 	<section class='description hidded'> Helps to keep you really warm. It is made from the best fibres </section>
+								</section>
+
+								<section class='image-box img img-responsive'>
+									 <span class='cancel'> <a href='#' style='color:white;'> X </a></span>
+									 <button class='addTo btn'> Add to Cart </button> 
+									 <img src='images/2.jpg' height='180px' width='180px'>
+									<a class='ordered centered sixteen' href='#' ><p style='padding-top:5px;'> Fire Branded Watch</p><p> ROLEX</p></a>
+									<section class='description hidded'> Now you can see time go by with fireee .</section> 
+								</section>
+
+								<section class='image-box img img-responsive'>
+									 <span class='cancel'> <a href='#' style='color:white;'> X </a></span>
+									 <button class='addTo btn'> Add to Cart </button> 
+									 <img src='images/3.jpg' height='180px' width='180px'>
+									<a class='ordered centered sixteen' href='#' ><p style='padding-top:5px;'> Golden PS4</p><p> SONY </p></a>
+									<section class='description hidded'> Its limited edition. SHow your friends your swagg .</section> 
+								</section>
+
+								<section class='image-box img img-responsive'>
+									 <span class='cancel'> <a href='#' style='color:white;'> X </a></span>
+									 <button class='addTo btn'> Add to Cart </button> 
+									 <img src='images/4.JPG' height='180px' width='180px'>
+									<a class='ordered centered sixteen' href='#' ><p style='padding-top:5px;'> Sunglasses</p><p>RAY BAN</p></a>
+									<section class='description hidded'> Stay cool whilst keeping sun rays away from your eyes .</section> 
+								</section>
+
+								<section class='image-box img img-responsive'>
+									 <span class='cancel'> <a href='#' style='color:white;'> X </a></span>
+									 <button class='addTo btn'> Add to Cart </button> 
+									 <img src='images/5.jpg' height='180px' width='180px'>
+									<a class='ordered centered sixteen' href='#' ><p style='padding-top:5px;'> Bible</p><p>HOLY SPIRIT</p></a>
+									<section class='description hidded'> Simply because we all need God .</section> 
+								</section>
+
+
+								<section class='image-box img img-responsive'>
+									 <span class='cancel'> <a href='#' style='color:white;'> X </a></span>
+									 <button class='addTo btn'> Add to Cart </button> 
+									 <img src='images/6.jpg' height='180px' width='180px'>
+									<a class='ordered centered sixteen' href='#' ><p style='padding-top:5px;'> iPhone 7</p><p>APPLE</p></a>
+									<section class='description hidded'> Packed with an awesome camera and new features .</section> 
+								</section>
+
+
+								<section class='image-box img img-responsive'>
+									 <span class='cancel'> <a href='#' style='color:white;'> X </a></span>
+									 <button class='addTo btn'> Add to Cart </button> 
+									 <img src='images/7.jpg' height='180px' width='180px'>
+									<a class='ordered centered sixteen' href='#' ><p style='padding-top:5px;'> MacBook</p><p>APPLE</p></a>
+									<section class='description hidded'> Get the best productivity on this UNIX like based OS.</section> 
+								</section>
+
+								<section class='image-box img img-responsive'>
+									 <span class='cancel'> <a href='#' style='color:white;'> X </a></span>
+									 <button class='addTo btn'> Add to Cart </button> 
+									 <img src='images/8.jpg' height='180px' width='180px'>
+									<a class='ordered centered sixteen' href='#' ><p style='padding-top:5px;'> Air Jordans</p><p> NIKE </p></a>
+									<section class='description hidded'> The latest Air Jordans at an affordable rate.</section> 
+								</section>
+
+							</section>
+
+
+						</section>
+
+
+					</section>
+
+			</section>
+	</section>
+
+<script type="text/javascript" src='js/jquery.min.js'></script>
+<script type="text/javascript" src='js/editor.js'></script>
+</body>
+</html>
